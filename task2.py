@@ -9,7 +9,11 @@ If you are stuck, don't forget to refer to your assignment on lists to help you 
 The return value is the largest value in the list
 (2 points)
 """
-def largest():
+def largest(c):
+  lists = list(c)
+  lists.sort()
+  y = lists[-1]
+  return y
   
   return
 
